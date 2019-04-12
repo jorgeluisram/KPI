@@ -1,9 +1,10 @@
 <template>
     <div id="secure">
-        <h1>Secure Area</h1>
-        <p>
-            This is a secure area
-        </p>
+        <div class="buttons">
+            <b-button  v-on:click="table()" type="is-primary">Cargar</b-button>
+
+          
+        </div>
     </div>
 </template>
 
@@ -12,7 +13,15 @@
         name: 'Secure',
         data() {
             return {};
+        },
+        methods:{
+            table(){
+                this.$router.replace({ name: "table" });
+            }
+
+
         }
+
     }
 </script>
 

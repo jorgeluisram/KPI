@@ -36,8 +36,11 @@
 </script>
 
 <style>
+
     body {
-        background-color: #F0F0F0;
+        background-color: rgba(240, 240, 240, 0);
+        
+        /* background-image:url('./src/assets/EC8.jpg'); */
     }
     h1 {
         padding: 0;

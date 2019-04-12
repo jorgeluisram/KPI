@@ -11,11 +11,10 @@
 
 
         <b-field label="Contraseña">
-            <b-input v-model="input.password" type="Contraseña"
-                value="iwantmytreasure"
-                password-reveal>
-            </b-input>
+            <b-input  type="password" v-model="input.password" password-reveal>            </b-input>
         </b-field>
+      
+
 
           <div class="buttons">
            
